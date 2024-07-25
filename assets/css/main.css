@@ -3471,10 +3471,10 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(238, 224, 203, 1), rgba(238, 224, 203, 1)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(238, 224, 203, 1), rgba(238, 224, 203, 1)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(238, 224, 203, 1), rgba(238, 224, 203, 1)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(238, 224, 203, 1), rgba(238, 224, 203, 1)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3560,7 +3560,7 @@ input, select, textarea {
 			}
 
 		#footer .copyright {
-			color: rgba(0, 0, 0, 0.5);
+			color: rgba(0, 0, 0, 1);
 			font-size: 0.8em;
 			line-height: 1em;
 			margin: 2em 0 0 0;
