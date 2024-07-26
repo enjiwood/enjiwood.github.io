@@ -144,8 +144,9 @@ input, select, textarea {
 			-moz-text-decoration-line: none;
 		}
 
-	.img {
+	a.img {
 		text-decoration: none;
+		border-bottom: transparent;
 	}
 
 	strong, b {
