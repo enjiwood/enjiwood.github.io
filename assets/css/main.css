@@ -125,12 +125,12 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
-		a.img {
-			color: rgba(0,0,0,0)
+		a:link {
+			text-decoration: none;
 		}
 
-		a.img:hover {
-			color: rgba(0,0,0,0)
+		a:visited {
+			text-decoration: none;
 		}
 
 	strong, b {
