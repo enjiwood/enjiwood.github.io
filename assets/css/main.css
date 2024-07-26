@@ -326,9 +326,9 @@ input, select, textarea {
 		transition: all .5s;
 	}
 		.icon-card:hover {
-			transform: scale(1.1);
+			transform: scale(1.15);
 			border-color: var(--clr);
-			box-shadow: 0 0 15px var(--clr);
+			box-shadow: 0 0 20px var(--clr);
 		}
 
 /* Row */
@@ -2518,9 +2518,9 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			box-shadow: 0 0 15px #49bf9d;
-			color: #49bf9d !important;
+			border-color: #FF8225;
+			box-shadow: 0 0 20px #FF8225;
+			color: #FF8225 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2528,8 +2528,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #FF8225;
+			color: #FF8225!important;
 		}
 
 		input[type="submit"].icon,
