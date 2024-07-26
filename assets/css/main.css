@@ -37,6 +37,10 @@ ol, ul {
 	list-style: none;
 }
 
+.par-indent {
+	text-indent:50px;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -297,7 +301,7 @@ input, select, textarea {
 		padding: 20px;
 		margin: 10px;
 	}
-	
+
 /* Row */
 
 	.row {
