@@ -301,6 +301,9 @@ input, select, textarea {
 		padding: 20px;
 		margin: 10px;
 	}
+		.icon-card:hover {
+			transform: scale(1.2);
+		}
 
 /* Row */
 
