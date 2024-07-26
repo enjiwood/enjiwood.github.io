@@ -1539,6 +1539,17 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
+			.icon-card {
+				background-color: #222222;
+				border-radius: 2px;
+				box-shadow: 1px 3px 10px var(--secondary-shadow);
+				padding: 2px;
+				margin: 2px;
+				transition: all .5s;
+			}
+				.icon-card:hover {
+					transform: scale(1.1);
+				}
 
 			.row {
 				display: flex;
@@ -1592,7 +1603,7 @@ input, select, textarea {
 				}
 
 				.row > .col-2-xsmall {
-					width: 16.66667%;
+					width: 25%;
 				}
 
 				.row > .off-2-xsmall {
