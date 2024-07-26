@@ -2617,7 +2617,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 30%;
 	}
 
 		#header > * {
@@ -2625,7 +2625,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			width: 50%;
+			width: 100%;
 		}
 
 		#header > .inner {
@@ -2695,10 +2695,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 20%;
+		margin-left: 30%;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
-		width: calc(100% - 20%);
+		width: calc(100% - 30%);
 	}
 
 		#main > section {
