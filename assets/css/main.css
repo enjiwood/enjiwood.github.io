@@ -127,10 +127,14 @@ input, select, textarea {
 
 		a:link {
 			text-decoration: none;
+			text-decoration-line: none;
+			-moz-text-decoration-line: none;
 		}
 
 		a:visited {
 			text-decoration: none;
+			text-decoration-line: none;
+			-moz-text-decoration-line: none;
 		}
 
 	strong, b {
