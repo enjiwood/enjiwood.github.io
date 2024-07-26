@@ -119,6 +119,8 @@ input, select, textarea {
 		text-decoration-color: #FF8225;
 		-moz-text-decoration-color: #FF8225;
 		text-decoration: none;
+		text-decoration-line: none;
+		-moz-text-decoration-line: none;
 	}
 
 		a:hover {
