@@ -38,7 +38,7 @@ ol, ul {
 }
 
 .par-indent {
-	text-indent:50px;
+	margin-left: 50px;
 }
 
 blockquote, q {
