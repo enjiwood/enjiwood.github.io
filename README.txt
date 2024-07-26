@@ -6,6 +6,7 @@ Credits:
 
 	Icons:
 		Font Awesome (fontawesome.io)
+		Devicon (devicon.dev)
 
 	Other:
 		jQuery (jquery.com)
