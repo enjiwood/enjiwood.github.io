@@ -315,13 +315,14 @@ input, select, textarea {
 	.icon-card {
 		background-color: #222222;
 		border-radius: 10px;
-		box-shadow: 1px 3px 10px var(--secondary-shadow);
 		padding: 10px;
 		margin: 10px;
 		transition: all .5s;
 	}
 		.icon-card:hover {
 			transform: scale(1.1);
+			background: var(--clr);
+			box-shadow: 0 0 15px var(--clr);
 		}
 
 /* Row */
@@ -1552,13 +1553,14 @@ input, select, textarea {
 			.icon-card {
 				background-color: #222222;
 				border-radius: 2px;
-				box-shadow: 1px 3px 10px var(--secondary-shadow);
 				padding: 2px;
 				margin: 2px;
 				transition: all .5s;
 			}
 				.icon-card:hover {
 					transform: scale(1.1);
+					background: var(--clr);
+					box-shadow: 0 0 10px var(--clr);
 				}
 
 			.row {
