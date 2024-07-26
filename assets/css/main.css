@@ -116,13 +116,19 @@ input, select, textarea {
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
 		color: #FF8225;
+		text-decoration-color: #FF8225;
+		-moz-text-decoration-color: #FF8225;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
 			color: #FF8225 !important;
+			text-decoration-color: #FF8225;
+			-moz-text-decoration-color: #FF8225 !important;
 			text-decoration: none;
+			text-decoration-line: none;
+			-moz-text-decoration-line: none;
 		}
 
 		a:link {
