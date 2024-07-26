@@ -323,7 +323,7 @@ input, select, textarea {
 	}
 		.icon-card:hover {
 			transform: scale(1.1);
-			background: var(--clr);
+			border-color: var(--clr);
 			box-shadow: 0 0 15px var(--clr);
 		}
 
