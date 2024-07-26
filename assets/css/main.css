@@ -121,6 +121,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-decoration-line: none;
 		-moz-text-decoration-line: none;
+		border-bottom-color: transparent;
 	}
 
 		a:hover {
@@ -137,12 +138,14 @@ input, select, textarea {
 			text-decoration: none;
 			text-decoration-line: none;
 			-moz-text-decoration-line: none;
+			border-bottom-color: transparent;
 		}
 
 		a:visited {
 			text-decoration: none;
 			text-decoration-line: none;
 			-moz-text-decoration-line: none;
+			border-bottom-color: transparent;
 		}
 
 	strong, b {
@@ -2646,7 +2649,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								250%;
+		background-size: auto,								175%;
 		color: rgba(255, 255, 255, 0.7);
 		height: 100%;
 		left: 0;
