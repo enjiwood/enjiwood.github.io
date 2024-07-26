@@ -296,13 +296,14 @@ input, select, textarea {
 
 	.icon-card {
 		background-color: #222222;
-		border-radius: 11px;
-		box-shadow: 0 3px 10px var(--secondary-shadow);
-		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 1px 3px 10px var(--secondary-shadow);
+		padding: 10px;
 		margin: 10px;
+		transition: all .5s;
 	}
 		.icon-card:hover {
-			transform: scale(1.2);
+			transform: scale(1.1);
 		}
 
 /* Row */
