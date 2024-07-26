@@ -87,7 +87,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #070707;
+		background: #000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -115,14 +115,22 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #FF8225;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #FF8225 !important;
 			text-decoration: none;
+		}
+
+		a.img {
+			color: rgba(0,0,0,0)
+		}
+
+		a.img:hover {
+			color: rgba(0,0,0,0)
 		}
 
 	strong, b {
