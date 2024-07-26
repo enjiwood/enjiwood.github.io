@@ -121,11 +121,9 @@ input, select, textarea {
 		text-decoration: none;
 		text-decoration-line: none;
 		-moz-text-decoration-line: none;
-		border-bottom-color: transparent;
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
 			color: #FF8225 !important;
 			text-decoration-color: #FF8225;
 			-moz-text-decoration-color: #FF8225 !important;
@@ -138,14 +136,12 @@ input, select, textarea {
 			text-decoration: none;
 			text-decoration-line: none;
 			-moz-text-decoration-line: none;
-			border-bottom-color: transparent;
 		}
 
 		a:visited {
 			text-decoration: none;
 			text-decoration-line: none;
 			-moz-text-decoration-line: none;
-			border-bottom-color: transparent;
 		}
 
 	strong, b {
@@ -2518,6 +2514,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		.button:hover {
 			border-color: #49bf9d;
+			box-shadow: 0 0 15px #49bf9d;
 			color: #49bf9d !important;
 		}
 
@@ -2649,7 +2646,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								175%;
+		background-size: auto,								190%;
 		color: rgba(255, 255, 255, 0.7);
 		height: 100%;
 		left: 0;
@@ -2657,7 +2654,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 10%;
+		width:25%;
 	}
 
 		#header > * {
@@ -2735,10 +2732,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 25%;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
-		width: calc(100% - 35%);
+		width: calc(100% - 25%);
 	}
 
 		#main > section {
