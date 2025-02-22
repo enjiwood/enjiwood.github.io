@@ -4,7 +4,7 @@ const About = () => {
     }
 
     return (
-        <section className="c-space my-10">
+        <section id="about" className="c-space my-10">
             <div className="w-full mx-auto flex flex-col gap-3 items-center">
                 <h1>About</h1>
                     <p className="pt-4 pb-6">I am a senior in the Computer Science program at Oregon State University. 
