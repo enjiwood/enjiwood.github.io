@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { Hero, About, Projects, Contact, Experience, SideBar } from './components'
+import { Hero, About, Projects, Contact, Experience, SideBar } from './components/sections'
 import './App.css'
 
 function App() {

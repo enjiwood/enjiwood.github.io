@@ -3,7 +3,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Experience from "./Experience";
-import SideBar from "./SideBar";
+import SideBar from "./../SideBar";
 
 export {
     Hero,
