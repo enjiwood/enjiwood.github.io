@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
     return (
-        <main className="grid grid-cols-[10%_1fr_10%] xl:grids-cols-[15%_1fr_15%]">
+        <main className="grid md:grid-cols-[10%_1fr_10%] xl:grids-cols-[15%_1fr_15%]">
             <div />
             <div >
                 <Hero />

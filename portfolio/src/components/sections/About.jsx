@@ -12,9 +12,9 @@ const About = () => {
                         Through personal projects and collaborations, I've developed a keen eye for detail and a solid understanding of the latest technologies and paradigms.
                         My dedication to innovation drives me to seek out new challenges and opportunities to apply my skills.
                     </p>
-                <button className="w-sm text-(--color) focus:ring-4 focus:outline-none
-                    focus:ring-gray-300 dark:focus:ring-gray-800 shadow-sm shadow-gray-500/50 dark:shadow-[#000000] font-medium rounded-lg text-sm 
-                    px-5 py-2.5 text-center me-2 mb-2" onClick={openResume}>My Resume</button>
+                <div className="w-sm bg-[#f9f9f9] dark:bg-[#1a1a1a] xl:rounded-2xl rounded-xl
+            h-auto shadow-sm shadow-gray-500/50 dark:shadow-[#000000] gap-3 p-3 flex items-center justify-center duration-300 
+            hover:scale-102 hover:shadow-lg hover:bg-[#fafafa] from-[#f9f9f9] to-[#e6e6e6] dark:from-[#1a1a1a] dark:to-[#151515]" onClick={openResume}>My Resume</div>
             </div>
         </section>
     );
