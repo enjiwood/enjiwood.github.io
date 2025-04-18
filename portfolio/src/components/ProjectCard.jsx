@@ -11,7 +11,9 @@ export default function ProjectCard (props) {
                     <span className="text-xl text-(--color)">{ props.text }</span>
                     <span className="text-m text-(--color)">{ props.desc }</span>
                 </div>
-                <img src={props.image} alt={props.alt} className="xl:h-auto xl:w-auto h-2/3 w-2/3 xl:rounded-2xl rounded-xl"></img>
+                <div className="h-50 flex flex-col items-center justify-center">
+                    <img src={props.image} alt={props.alt} className="xl:h-auto xl:w-auto h-2/3 w-2/3 xl:rounded-2xl rounded-xl"></img>
+                </div>
                 <span className="hidden xl:block">{ props.text }</span>
             </div>
         </div>
